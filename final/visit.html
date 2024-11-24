@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plan a Visit</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="Itinerary">
+    <header class="header">
+        <a class="logo">Travels</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="p_destination.html">Popular Destinations</a></li>
+                <li><a href="culture.html">History and Culture</a></li>
+                <li><a href="food.html">Gallery</a></li>
+                <li><a href="visit.html">Plan a Visit</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="plan-visit-container">
+        <h1 class="plan-visit-title">Plan Your Visit to Seoul</h1>
+        <p class="plan-visit-subtitle">Create your custom travel itinerary by adding places you want to visit for each day of your trip.</p>
+
+        <div class="todo-list-section">
+            <h2>Your Itinerary</h2>
+            <br>
+            <div class="todo-day" id="day1Container">
+                <div class="input-container">
+                    <label for="day1Input" class="day-label">Day 1</label>
+                    <input type="text" id="day1Input" placeholder="Enter a place for Day 1" title="Place for Day 1">
+                    <button id="addDay1Btn">Add</button>
+                </div>
+                <ul id="day1List" class="task-list"></ul>
+            </div>
+            
+            <div class="todo-day" id="day2Container">
+                <div class="input-container">
+                    <label for="day2Input" class="day-label">Day 2</label>
+                    <input type="text" id="day2Input" placeholder="Enter a place for Day 2" title="Place for Day 2">
+                    <button id="addDay2Btn">Add</button>
+                </div>
+                <ul id="day2List" class="task-list"></ul>
+            </div>
+            
+            <div class="todo-day" id="day3Container">
+                <div class="input-container">
+                    <label for="day3Input" class="day-label">Day 3</label>
+                    <input type="text" id="day3Input" placeholder="Enter a place for Day 3" title="Place for Day 3">
+                    <button id="addDay3Btn">Add</button>
+                </div>
+                <ul id="day3List" class="task-list"></ul>
+            </div>
+            
+            
+            
+            <button id="addNewDayBtn" class="add-new-day-container">Add New Day</button>
+        </div> 
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
